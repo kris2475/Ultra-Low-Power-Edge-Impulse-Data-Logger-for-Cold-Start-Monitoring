@@ -5,7 +5,7 @@
  * ----------------------------------------------------------------------------------
  * 🎯 PROJECT GOAL: Time-to-First-Measurement (TTFM) Analysis
  * ----------------------------------------------------------------------------------
- * Optimized for XIAO ESP32-S3 (based on ROM output: esp32s3-20210327).
+ * Optimised for XIAO ESP32-S3 (based on ROM output: esp32s3-20210327).
  * This project measures the Time-to-First-Measurement (TTFM) from deep sleep wake-up
  * until the first valid Lux measurement is acquired.
  *
@@ -13,7 +13,7 @@
  * ⚙️ OPERATIONAL LOGIC
  * ----------------------------------------------------------------------------------
  * 1. WAKE: Node wakes up via the RTC Timer.
- * 2. INIT: Initializes Serial, I2C, and SD Card.
+ * 2. INIT: Initialises Serial, I2C, and SD Card.
  * 3. CALIBRATE: Reads BMP180 calibration data only on a cold boot (power reset).
  * 4. TTFM START: Timer starts before BH1750 command is sent.
  * 5. MEASURE: Captures Lux (BH1750) and then Temp/Pressure (BMP180).
