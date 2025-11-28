@@ -16,11 +16,9 @@
 #include <SPI.h> 
 
 // --- Pin Configuration ---
-// I2C PINS (BH1750 & BMP180) - Confirmed from user's working code
 const int SDA_PIN = 43;
 const int SCL_PIN = 44;
 
-// SD CARD SPI PINS - Confirmed from user's configuration
 const int SD_CS_PIN = 21;    // Chip Select (CS)
 const int SD_SCK_PIN = 7;    // Clock (SCK)
 const int SD_MISO_PIN = 8;   // Master In, Slave Out (MISO)
