@@ -35,9 +35,6 @@
  * | SPI | MOSI (Master Out, Slave In) | 9 | SD_MOSI_PIN |
  *
  * NOTE: Pins 43, 44, 7, 8, 9, 21 are used based on the previous working setup.
- *
- * @author Gemini, Large Language Model
- * @date November 2025
  */
 
 #include <Wire.h>
