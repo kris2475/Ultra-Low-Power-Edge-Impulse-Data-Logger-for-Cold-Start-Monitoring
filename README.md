@@ -4,7 +4,7 @@
 
 This project combines ultra-low-power system design, embedded sensing, and TinyML-ready data logging. It focuses on measuring and analysing the **Time-to-First-Measurement (TTFM)** of an ESP32-based node waking from deep sleep — a key performance parameter in energy-constrained IoT systems.
 
-Using the **XIAO ESP32-S3** (or a similar ESP32 variant), we build a standalone, battery-powered logger that periodically wakes, captures sensor readings (Lux, Temperature, Pressure), measures the time required to produce that reading after wake-up, and stores the result in a dataset suitable for Edge Impulse (EI) or other ML pipelines.
+Using the **XIAO ESP32-S3** (or a similar ESP32 variant), I build a standalone, battery-powered logger that periodically wakes, captures sensor readings (Lux, Temperature, Pressure), measures the time required to produce that reading after wake-up, and stores the result in a dataset suitable for Edge Impulse (EI) or other ML pipelines.
 
 The goal is to determine if environmental factors (like temperature) have a measurable, non-linear impact on the chip's cold-start performance.
 
